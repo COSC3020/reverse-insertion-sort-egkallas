@@ -42,5 +42,5 @@ The average time complexity of insertion sort is $\Theta(n^2)$. The outer loop
 runs $n$ amount of times, $n$ being the number of elements in the array. The inner loop however,
 runs depending on the amount of comparisons needed AND the amount of insertions needed after those comparisons
 are made. This is an $n^2$ runtime. No matter the case, even if there are only a few elements in the
-array that need to be inserted, $n^2$ will still be the runtime. Therefor the average case runtime
+array that need to be inserted, $n^2$ will still be the runtime for the inner loop. Therefor the average case runtime
 is $\Theta(n^2)$.
