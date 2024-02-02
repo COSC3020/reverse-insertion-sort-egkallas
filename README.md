@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Bi-S25fM)
 # Reverse Insertion Sort
 
 Consider the code for insertion sort we covered in class:
@@ -36,3 +37,10 @@ constant factors.
 Describe your reasoning and the conclusion you've come to. Your reasoning is
 most important -- you can easily find the answer, but you need to demonstrate
 that you've understood the concept. Add your answer to this markdown file.
+
+The average time complexity of insertion sort is $\Theta(n^2)$. The outer loop
+runs $n$ amount of times, $n$ being the number of elements in the array. The inner loop however,
+runs depending on the amount of comparisons needed AND the amount of insertions needed after those comparisons
+are made. This is an $n^2$ runtime. No matter the case, even if there are only a few elements in the
+array that need to be inserted, $n^2$ will still be the runtime for the inner loop. Therefor the average case runtime
+is $\Theta(n^2)$.
